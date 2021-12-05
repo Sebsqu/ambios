@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Cooper Black";
+    src: url("css/COOPBL.ttf");
+    font-size: 24px;
+}
+
+header{
+    height: 120px;
+    border-top: 4px solid red ;
+}
+
+header img{
+    margin:0 10%;
+}
+
+.Slider{
+    padding-top: 50px;
+    display: none;
+}
+    
+#omnie{
+    background-color: #201f1f;
+    min-height: 500px;
+}
+
+#produkty{
+    text-align: center;
+    margin: 50px 10%;
+    min-height: 600px;
+}
+
+#produkty h2{
+    font-family: "Cooper Black";
+    margin-bottom: 50px;
+    font-size: 28px;
+}
+
+#produkty img{
+    width: 33%;
+    border: 2px solid grey;
+    margin-top: 5px;
+}
+
+#kontakt{
+    padding: 20px 10%;
+    min-height: 400px;
+    background-color: grey;
+    border-top: 4px solid red ;
+}
+
+#kontakt h2{
+    padding-bottom: 15px;
+}
+
+article{
+    float: left;
+}
+
+article p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+iframe{
+    position: relative;
+    margin-left: 15%;
+    padding-top: 25px;
+}
+
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    min-height: 30px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+
+footer a{
+    color: coral;
+}
+
+footer a:link{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (max-width: 1440px){
+
+    header{
+        height: 50%;
+    }
+
+    header img{
+        width: 50%;
+    }
+
+    #omnie{
+        min-height: 400px;
+    }
+
+    iframe{
+        margin-left: auto; 
+        margin-right: auto;
+    }
+}
+
+@media (max-width:768px){
+      
+    header{
+        height: 50%;
+    }
+
+    #omnie{
+        min-height: 350px;
+    }
+
+    iframe{
+    left: 10%;  
+    }
+}
+
+@media (max-width:620px){
+    
+    header{
+        height: 50%;
+    }
+
+    #omnie{
+        min-height: 230px;
+    }
+
+    .w3-section, .w3-code {
+        margin-top: 0!important;
+        margin-bottom: 0!important;
+    }
+
+    #produkty img{
+        width: 80%;
+    }
+
+    header img{
+    width: 80%;
+    }
+
+    iframe{
+    width: 80%; 
+    }
+
+    footer{
+        font-size: 18px;
+    }
+}
+
+

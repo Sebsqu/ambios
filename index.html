@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Sprzedaż kas i drukarek fiskalnych - Lubliniec">
+    <meta name="keywords" content="kasy fiskalne,kasy,fiskalne,lubliniec,drukarki fiskalne">
+    <meta name="author" content="Sebastian Skubała">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/lightbox.css">
+    <link rel="stylesheet" href="css/fontello.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="icon" type="photo/png" sizes="128x128" href="photo/logo1.png">
+    <title>Ambios</title>
+</head>
+<body>
+    
+    <header><img src="photo/logo30.png"></header>
+
+
+    <section id="omnie">
+        <div class="w3-content w3-section" style="width: 100%;">
+            <img class="Slider w3-animate-left" src="photo/slider5.jpg" style="width:100%">
+            <img class="Slider w3-animate-left" src="photo/slider6.jpg" style="width:100%">
+            <img class="Slider w3-animate-left" src="photo/slider7.jpg" style="width:100%">
+        </div>
+    </section>
+
+    <section id="produkty">
+        <h2>Kasy i drukarki fiskalne:</h2>
+        <a href="photo/elzab6.jpg" data-lightbox="elzab" data-title="Elzab K1 slim"><img src="photo/elzab6.jpg"></a>
+        <a href="photo/elzab5.jpg" data-lightbox="elzab" data-title="Elzab K10 online"><img src="photo/elzab5.jpg"></a>
+        <a href="photo/elzab1.png" data-lightbox="elzab" data-title="Elzab Mini online"><img src="photo/elzab1.png"></a>
+        <a href="photo/elzab3.png" data-lightbox="elzab" data-title="Elzab Jota online"><img src="photo/elzab3.png"></a>
+        <a href="photo/elzab4.jpg" data-lightbox="elzab" data-title="Elzab Alfa Max E"><img src="photo/elzab4.jpg"></a>
+        <a href="photo/elzab2.png" data-lightbox="elzab" data-title="Elzab Delta max"><img src="photo/elzab2.png"></a>
+        
+    </section>
+    <section id="kontakt">
+        <article>
+        <h2>Kontakt:</h2>
+        <p><i class="icon-phone">500-089-917</i></p>
+        <p><i class="icon-location">ul.Elizy Orzeszkowej 7, 42-700 Lubliniec</i></p><br/>
+            <h2>Godziny otwarcia: </h2>
+            <p>Serwis jest dostępny 24h/dobe w zakresie napraw oraz wsparcia technicznego.</p>
+            <p>W sprawach zakupu godziny otwarcia to 8-22 po wcześniejszym ustaleniu terminu.</p>
+            
+        </article>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2528.621526422841!2d18.67010441573937!3d50.67128727950643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4710dd9c6fb117b5%3A0xc6cff6da8507a93d!2sAmbios!5e0!3m2!1spl!2spl!4v1637367838757!5m2!1spl!2spl" width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+
+    <footer>Wszelkie prawa zastrzeżone &copy;  Strone wykonał: <a href="https://www.facebook.com/Sebsqu" target="_blank">Sebastian Skubała</a></footer>
+    <script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("Slider");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+
+    </script>
+    <script src="js/lightbox-plus-jquery.js"></script>
+</body>
+</html>
